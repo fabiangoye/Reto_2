@@ -1,5 +1,6 @@
 package co.edu.utp.misiontic2022.c2.r2.fgoye;
 
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -20,8 +21,8 @@ public class App
       Pedido pedido = new Pedido(fecha, "Cesar Díaz");
       pedido.adicionarVehiculo(new Automovil("BMW", "i8", 300_000_000d, TipoTransmision.MANUAL, true, true));
       
-      Automovil obj = new Automovil();
-      System.out.println(obj.calcularDescuento(fecha)); 
+      //Automovil obj = new Automovil();
+     // System.out.println(obj.calcularDescuento(fecha)); 
       
     }
 }
